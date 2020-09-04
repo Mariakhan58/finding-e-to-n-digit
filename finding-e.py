@@ -16,7 +16,7 @@ while value:
         print("\nThe desired value of e: %.*f" % (int(digits), math.e))
         repeat = input("Do you want to run the program again? Press y for yes or n for no. ")
         if repeat == 'y' or repeat == 'Y':
-            digits = input("How many values you desire after the decimal for PI? ")
+            digits = input("How many values you desire after the decimal for e? ")
         elif repeat == 'n' or repeat == 'N':
             print("\nYou chose to exit the program. Good bye.")
             value = 0
@@ -28,7 +28,7 @@ while value:
         print("\nNumber out of range.")
         repeat = input("Do you want to run the program again? Press y for yes or n for no. ")
         if repeat == 'y' or repeat == 'Y':
-            digits = input("How many values you desire after the decimal for PI? ")
+            digits = input("How many values you desire after the decimal for e? ")
         elif repeat == 'n' or repeat == 'N':
             print("\nYou chose to exit the program. Good bye.")
             value = 0
